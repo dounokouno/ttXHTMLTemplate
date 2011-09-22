@@ -261,11 +261,11 @@ em,
 }
 
 #content .cols-1-2 .leftbox {
-	width: 288px;/* 312-24 */
+	width: 283px;/* 307-24 */
 }
 
 #content .cols-1-2 .rightbox {
-	width: 600px;/* 524-24 */
+	width: 605px;/* 629-24 */
 }
 
 /* cols 2-1 */
@@ -274,11 +274,11 @@ em,
 }
 
 #content .cols-2-1 .leftbox {
-	width: 600px;/* 624-24 */
+	width: 605px;/* 629-24 */
 }
 
 #content .cols-2-1 .rightbox {
-	width: 288px;/* 312-24 */
+	width: 283px;/* 307-24 */
 }
 
 /* cols 1-1-1 */
@@ -311,73 +311,73 @@ em,
 #content a.mailto,
 #content span.mailto {
 	padding-left: 17px;
-	background: url(../img/icon-mailto.gif) no-repeat 0 1px;
+	background: url(../img/icon-mailto.gif) no-repeat 0 center;
 }
 
 #content a.external,
 #content span.external {
-	padding-left: 17px;
-	background: url(../img/icon-external.gif) no-repeat 1px 2px;
+	padding-left: 15px;
+	background: url(../img/icon-external.gif) no-repeat 1px center;
 }
 
 #content a.popup,
 #content span.popup {
-	padding-left: 17px;
-	background: url(../img/icon-popup.gif) no-repeat 1px 2px;
+	padding-left: 15px;
+	background: url(../img/icon-popup.gif) no-repeat 1px center;
 }
 
 #content a.pdf,
 #content span.pdf {
 	padding-left: 17px;
-	background: url(../img/icon-pdf.gif) no-repeat 0 1px;
+	background: url(../img/icon-pdf.gif) no-repeat 0 center;
 }
 
 #content a.doc,
 #content span.doc {
 	padding-left: 17px;
-	background: url(../img/icon-doc.gif) no-repeat 0 1px;
+	background: url(../img/icon-doc.gif) no-repeat 0 center;
 }
 
 #content a.xls,
 #content span.xls {
 	padding-left: 17px;
-	background: url(../img/icon-xls.gif) no-repeat 0 1px;
+	background: url(../img/icon-xls.gif) no-repeat 0 center;
 }
 
 #content a.ppt,
 #content span.ppt {
 	padding-left: 17px;
-	background: url(../img/icon-ppt.gif) no-repeat 0 1px;
+	background: url(../img/icon-ppt.gif) no-repeat 0 center;
 }
 
 #content a.zip,
 #content span.zip {
 	padding-left: 17px;
-	background: url(../img/icon-zip.gif) no-repeat 0 1px;
+	background: url(../img/icon-zip.gif) no-repeat 0 center;
 }
 
 #content a.arrow-up,
 #content span.arrow-up {
-	padding-left: 17px;
-	background: url(../img/arrow-up.gif) no-repeat 2px 3px;
+	padding-left: 15px;
+	background: url(../img/arrow-up.gif) no-repeat 2px center;
 }
 
 #content a.arrow-right,
 #content span.arrow-right {
-	padding-left: 17px;
-	background: url(../img/arrow-right.gif) no-repeat 2px 3px;
+	padding-left: 15px;
+	background: url(../img/arrow-right.gif) no-repeat 2px center;
 }
 
 #content a.arrow-down,
 #content span.arrow-down {
-	padding-left: 17px;
-	background: url(../img/arrow-down.gif) no-repeat 2px 3px;
+	padding-left: 15px;
+	background: url(../img/arrow-down.gif) no-repeat 2px center;
 }
 
 #content a.arrow-left,
 #content span.arrow-left {
-	padding-left: 17px;
-	background: url(../img/arrow-left.gif) no-repeat 2px 3px;
+	padding-left: 15px;
+	background: url(../img/arrow-left.gif) no-repeat 2px center;
 }
 
 /* other */
