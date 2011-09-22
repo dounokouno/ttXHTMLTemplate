@@ -1,4 +1,6 @@
-#ttHTMLTemplate - オープンソースでXHTML 1.0 TransitionalなHTML、CSSセット
+#ttXHTMLTemplate
+
+シンプルなXHTML 1.0 TransitionalなHTML、CSSセット
 
 ##概要
 

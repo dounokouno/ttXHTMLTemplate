@@ -1,5 +1,9 @@
 @charset "UTF-8";
-.clearfix:after
+.clearfix:after,
+#content .cols-1-1:after,
+#content .cols-1-2:after,
+#content .cols-2-1:after,
+#content .cols-1-1-1:after
  {
 	content: ".";
 	display: block;
@@ -8,15 +12,27 @@
 	visibility: hidden;
 }
 
-.clearfix
+.clearfix,
+#content .cols-1-1,
+#content .cols-1-2,
+#content .cols-2-1,
+#content .cols-1-1-1
  {
 	display: inline-block;
 	min-height: 1%;
 }
 
 /* Hides from IE-mac¥*/
-*html .clearfix
+*html .clearfix,
+*html #content .cols-1-1,
+*html #content .cols-1-2,
+*html #content .cols-2-1,
+*html #content .cols-1-1-1
  {height: 1%;}
-.clearfix
+.clearfix,
+#content .cols-1-1,
+#content .cols-1-2,
+#content .cols-2-1,
+#content .cols-1-1-1
  {display: block;}
 /*End hide from IE-mac */

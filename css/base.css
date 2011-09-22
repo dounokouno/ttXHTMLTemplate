@@ -167,6 +167,12 @@ em,
 	margin: 0 0 0.3em 20px;
 }
 
+#content ul.nonstyle {}
+#content ul.nonstyle li {
+	list-style: none;
+	margin-left: 0;
+}
+
 #content ol {
 	margin-bottom: 1em;
 }
@@ -180,17 +186,29 @@ em,
 	margin-bottom: 1em;
 }
 
+#content dt {
+	margin-bottom: 0.5em;
+	padding-left: 6px;
+	border-left: 3px solid #333;
+	font-weight: bold;
+}
+
+#content dd {
+	margin-bottom: 1em;
+	padding-left: 9px;
+}
+
 /* table */
 #content table {
 	margin-bottom: 1em;
 }
 
-#content table.alpha {
+#content table {
 	border-top: 1px solid #999;
 	border-left: 1px solid #999;
 }
 
-#content table.alpha th {
+#content table th {
 	padding: 6px;
 	border-right: 1px solid #999;
 	border-bottom: 1px solid #999;
@@ -198,49 +216,174 @@ em,
 	background-color: #ddd;
 }
 
-#content table.alpha td {
+#content table td {
 	padding: 6px;
 	border-right: 1px solid #999;
 	border-bottom: 1px solid #999;
 	vertical-align: top;
 }
 
-#content table.alpha td ul {
+#content table td ul {
 	margin-bottom: 0;
 }
 
+/* cols */
+#content .leftbox {
+	display: inline;
+	float: left;
+}
+
+#content .centerbox {
+	display: inline;
+	float: left;
+}
+
+#content .rightbox {
+	display: inline;
+	float: right;
+}
+
 /* cols 1-1 */
-#content .cols1-1 {
+#content .cols-1-1 {
 	margin-bottom: 1em;
 }
 
-#content .cols1-1 .col {}
-
-/* cols 2-1 */
-#content .cols2-1 {
-	margin-bottom: 1em;
+#content .cols-1-1 .leftbox,
+#content .cols-1-1 .rightbox {
+	width: 444px;/* 468-24 */
 }
 
-#content .cols2-1 .main-col {}
-#content .cols2-1 .sub-col {}
+#content .cols-1-1 .rightbox {}
 
 /* cols 1-2 */
-#content .cols1-2 {
+#content .cols-1-2 {
 	margin-bottom: 1em;
 }
 
-#content .cols2-1 .main-col {}
-#content .cols2-1 .sub-col {}
+#content .cols-1-2 .leftbox {
+	width: 288px;/* 312-24 */
+}
+
+#content .cols-1-2 .rightbox {
+	width: 600px;/* 524-24 */
+}
+
+/* cols 2-1 */
+#content .cols-2-1 {
+	margin-bottom: 1em;
+}
+
+#content .cols-2-1 .leftbox {
+	width: 600px;/* 624-24 */
+}
+
+#content .cols-2-1 .rightbox {
+	width: 288px;/* 312-24 */
+}
 
 /* cols 1-1-1 */
-#content .cols1-1-1 {
+#content .cols-1-1-1 {
 	margin-bottom: 1em;
 }
 
-#content .cols1-1-1 .col {}
+#content .cols-1-1-1 .leftbox,
+#content .cols-1-1-1 .centerbox,
+#content .cols-1-1-1 .rightbox {
+	width: 283px;/* 307-24 */
+}
+
+#content .cols-1-1-1 .centerbox {
+	margin-left: 14px;
+}
+
+/* hr */
+#content .hr {
+	height: 2px;
+	margin-bottom: 1em;
+	border-bottom: 2px solid #333;
+}
+
+#content .hr hr {
+	display: none;
+}
+
+/* icon */
+#content a.mailto,
+#content span.mailto {
+	padding-left: 17px;
+	background: url(../img/icon-mailto.gif) no-repeat 0 1px;
+}
+
+#content a.external,
+#content span.external {
+	padding-left: 17px;
+	background: url(../img/icon-external.gif) no-repeat 1px 2px;
+}
+
+#content a.popup,
+#content span.popup {
+	padding-left: 17px;
+	background: url(../img/icon-popup.gif) no-repeat 1px 2px;
+}
+
+#content a.pdf,
+#content span.pdf {
+	padding-left: 17px;
+	background: url(../img/icon-pdf.gif) no-repeat 0 1px;
+}
+
+#content a.doc,
+#content span.doc {
+	padding-left: 17px;
+	background: url(../img/icon-doc.gif) no-repeat 0 1px;
+}
+
+#content a.xls,
+#content span.xls {
+	padding-left: 17px;
+	background: url(../img/icon-xls.gif) no-repeat 0 1px;
+}
+
+#content a.ppt,
+#content span.ppt {
+	padding-left: 17px;
+	background: url(../img/icon-ppt.gif) no-repeat 0 1px;
+}
+
+#content a.zip,
+#content span.zip {
+	padding-left: 17px;
+	background: url(../img/icon-zip.gif) no-repeat 0 1px;
+}
+
+#content a.arrow-up,
+#content span.arrow-up {
+	padding-left: 17px;
+	background: url(../img/arrow-up.gif) no-repeat 2px 3px;
+}
+
+#content a.arrow-right,
+#content span.arrow-right {
+	padding-left: 17px;
+	background: url(../img/arrow-right.gif) no-repeat 2px 3px;
+}
+
+#content a.arrow-down,
+#content span.arrow-down {
+	padding-left: 17px;
+	background: url(../img/arrow-down.gif) no-repeat 2px 3px;
+}
+
+#content a.arrow-left,
+#content span.arrow-left {
+	padding-left: 17px;
+	background: url(../img/arrow-left.gif) no-repeat 2px 3px;
+}
 
 /* other */
-#content pre {
+#content pre,
+#content blockquote,
+#content .box {
 	margin-bottom: 1.5em;
 	padding: 12px;
 	border: 1px solid #999;
@@ -248,11 +391,11 @@ em,
 	background-color: #ddd;
 }
 
-#content blockquote {
-	margin-bottom: 1.5em;
-	padding: 12px;
-	border: 1px solid #999;
-	background-color: #ddd;
+#content .box p,
+#content .box ul,
+#content .box ol,
+#content .box dl {
+	margin-bottom: 0;
 }
 
 #content .pagetop {
@@ -268,7 +411,29 @@ em,
 	text-align: center;
 }
 
-.stripe {}
+.stripe,
+.child,
+.heightline,
+.toggle {}
+
+
+/* popup
+------------------------------------------------------------- */
+.popup .container {
+	width: 580px;
+}
+
+.popup #header {
+	padding-top: 1em;
+}
+
+.popup #header h1 {
+	margin-bottom: 0.5em;
+	border-bottom: 3px solid #333;
+	font-size: 146.5%;
+	font-weight: bold;
+}
+
 
 
 /* font size
