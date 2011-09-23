@@ -388,6 +388,10 @@ em,
 	background-color: #ddd;
 }
 
+#content pre code {
+	font-size: 100%;
+}
+
 #content .box p,
 #content .box ul,
 #content .box ol,
