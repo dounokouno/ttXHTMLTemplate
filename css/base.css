@@ -188,14 +188,11 @@ em,
 
 #content dt {
 	margin-bottom: 0.5em;
-	padding-left: 6px;
-	border-left: 3px solid #333;
 	font-weight: bold;
 }
 
 #content dd {
 	margin-bottom: 1em;
-	padding-left: 9px;
 }
 
 /* table */
