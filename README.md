@@ -1,6 +1,6 @@
 #ttXHTMLTemplate
 
-シンプルなXHTML 1.0 TransitionalなHTML、CSSセット
+シンプルなXHTML 1.0 Transitional + CSSセット
 
 ##概要
 
