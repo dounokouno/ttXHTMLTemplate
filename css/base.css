@@ -224,6 +224,31 @@ em,
 	margin-bottom: 0;
 }
 
+/* form */
+#content form.inline {
+	display: inline;
+}
+
+#content form .wide {
+	width: 400px;
+}
+
+#content form .middle {
+	width: 200px;
+}
+
+#content form .narrow {
+	width: 100px;
+}
+
+#content form .mini {
+	width: 20px;
+}
+
+#content .error {
+	margin-top: 6px;
+}
+
 /* cols */
 #content .leftbox {
 	display: inline;
