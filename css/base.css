@@ -173,6 +173,27 @@ em,
 	margin-left: 0;
 }
 
+#content ul.books {}
+#content ul.books li {
+	list-style: none;
+	display: inline;
+	float: left;
+	width: 120px;
+	margin-right: 13px;
+}
+
+#content ul.books li:last-child {
+	margin-right: 0;
+}
+
+#content ul.books li.last-child {
+	margin-right: 0;
+}
+
+#content ul.books li img {
+	margin-bottom: 0.5em;
+}
+
 #content ol {
 	margin-bottom: 1em;
 }
