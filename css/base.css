@@ -178,8 +178,8 @@ em,
 	list-style: none;
 	display: inline;
 	float: left;
-	width: 120px;
-	margin-right: 13px;
+	width: 140px;
+	margin: 0 13px 0 0;
 }
 
 #content ul.books li:last-child {
