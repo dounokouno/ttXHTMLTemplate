@@ -3,7 +3,6 @@
 /* base
 ------------------------------------------------------------- */
 body {
-	border-top: 6px solid #333;
 	color: #333;
 	font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	line-height: 1.5;
@@ -54,6 +53,7 @@ em,
 ------------------------------------------------------------- */
 #header {
 	padding-top: 2em;
+	border-top: 6px solid #333;
 }
 
 #header h1 {
