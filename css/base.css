@@ -259,6 +259,10 @@ em,
 	margin-bottom: 0;
 }
 
+#content table td img {
+	margin: 0.5em 0;
+}
+
 
 /* form */
 #content form.inline {
